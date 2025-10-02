@@ -16,7 +16,7 @@ public class HelloWorldController {
     public String sayHello() {
         return "Funcionou!!!";
     }
-
+    
     @PostMapping // URL final: .../hello
     public String sayHelloPost(@RequestBody Hellorobo dados) {
         String nomeRecebido = dados.getNome();
