@@ -14,7 +14,7 @@ public class HelloWorldController {
     
     @GetMapping // URL final: .../hello
     public String sayHello() {
-        return "Funcionou!!!";
+        return "API ATUALIZADA - Versão 2!!";
     }
     
     @PostMapping // URL final: .../hello
